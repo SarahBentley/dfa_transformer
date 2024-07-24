@@ -1,0 +1,75 @@
+number of parameters: 0.01M
+num decayed parameter tensors: 22, with 7,112 parameters
+num non-decayed parameter tensors: 11, with 88 parameters
+using fused AdamW: False
+Epoch 1/50, Avg Training Loss: 2.0113011598587036
+Epoch 2/50, Avg Training Loss: 1.6873603343963623
+Epoch 3/50, Avg Training Loss: 1.3256776452064514
+Epoch 4/50, Avg Training Loss: 1.0815121293067933
+Epoch 5/50, Avg Training Loss: 0.9256527364253998
+Epoch 6/50, Avg Training Loss: 0.8370610237121582
+Epoch 7/50, Avg Training Loss: 0.7841664671897888
+Epoch 8/50, Avg Training Loss: 0.7523293852806091
+Epoch 9/50, Avg Training Loss: 0.7374022603034973
+Epoch 10/50, Avg Training Loss: 0.7228779077529908
+Epoch 11/50, Avg Training Loss: 0.7369286417961121
+Epoch 12/50, Avg Training Loss: 0.7065847098827363
+Epoch 13/50, Avg Training Loss: 0.7038913190364837
+Epoch 14/50, Avg Training Loss: 0.7004142999649048
+Epoch 15/50, Avg Training Loss: 0.6978093326091767
+Epoch 16/50, Avg Training Loss: 0.6942830979824066
+Epoch 17/50, Avg Training Loss: 0.6848116457462311
+Epoch 18/50, Avg Training Loss: 0.6809265971183777
+Epoch 19/50, Avg Training Loss: 0.6759238600730896
+Epoch 20/50, Avg Training Loss: 0.6657847166061401
+Epoch 21/50, Avg Training Loss: 0.6587254643440247
+Epoch 22/50, Avg Training Loss: 0.6468712151050567
+Epoch 23/50, Avg Training Loss: 0.6446465075016021
+Epoch 24/50, Avg Training Loss: 0.6475831866264343
+Epoch 25/50, Avg Training Loss: 0.631160968542099
+Epoch 26/50, Avg Training Loss: 0.6431914508342743
+Epoch 27/50, Avg Training Loss: 0.6058362543582916
+Epoch 28/50, Avg Training Loss: 0.595663172006607
+Epoch 29/50, Avg Training Loss: 0.5895866572856903
+Epoch 30/50, Avg Training Loss: 0.5465383768081665
+Epoch 31/50, Avg Training Loss: 0.5327387005090714
+Epoch 32/50, Avg Training Loss: 0.5067025601863862
+Epoch 33/50, Avg Training Loss: 0.4926936119794846
+Epoch 34/50, Avg Training Loss: 0.47782933712005615
+Epoch 35/50, Avg Training Loss: 0.47414773404598237
+Epoch 36/50, Avg Training Loss: 0.43806347250938416
+Epoch 37/50, Avg Training Loss: 0.4061525076627731
+Epoch 38/50, Avg Training Loss: 0.3731880158185959
+Epoch 39/50, Avg Training Loss: 0.33895092606544497
+Epoch 40/50, Avg Training Loss: 0.31436149775981903
+Epoch 41/50, Avg Training Loss: 0.2998636722564697
+Epoch 42/50, Avg Training Loss: 0.31458771228790283
+Epoch 43/50, Avg Training Loss: 0.2938968539237976
+Epoch 44/50, Avg Training Loss: 0.2565709114074707
+Epoch 45/50, Avg Training Loss: 0.22608593851327896
+Epoch 46/50, Avg Training Loss: 0.24507128596305847
+Epoch 47/50, Avg Training Loss: 0.2208837166428566
+Epoch 48/50, Avg Training Loss: 0.1932686135172844
+Epoch 49/50, Avg Training Loss: 0.17839664220809937
+Epoch 50/50, Avg Training Loss: 0.18545204252004624
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Traceback (most recent call last):
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 126, in <module>
+    main(args)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 116, in main
+    by_length = metrics_by_length(model, DFA, [i for i in range(4,args.max_seq_len*2)], batch_size=args.batch_size, pad_idx=0)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/inference_GPT.py", line 56, in metrics_by_length
+    y_true, y_pred = infer(model, dataloader, batch_size, same_lengths=True)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/inference_GPT.py", line 27, in infer
+    logits, _ = model(pred)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/GPT.py", line 175, in forward
+    assert t <= self.config.block_size, f"Cannot forward sequence of length {t}, block size is only {self.config.block_size}"
+AssertionError: Cannot forward sequence of length 81, block size is only 80

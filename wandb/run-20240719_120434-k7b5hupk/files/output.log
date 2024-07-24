@@ -1,0 +1,195 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 42,760 parameters
+num non-decayed parameter tensors: 5, with 200 parameters
+using fused AdamW: False
+Epoch 1/10, Avg Training Loss: 0.9595750409364701
+encoded src size: 43
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+Skipping AUC calculation for class <END> as it has only one class present in true labels.
+Skipping AUC calculation for class <pad> as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 2/10, Avg Training Loss: 0.42033114612102507
+encoded src size: 43
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Epoch 3/10, Avg Training Loss: 0.2443852934986353
+encoded src size: 43
+Skipping AUC calculation for class <END> as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 4/10, Avg Training Loss: 0.12570098020136355
+encoded src size: 43
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+Skipping AUC calculation for class <ACCEPT> as it has only one class present in true labels.
+Epoch 5/10, Avg Training Loss: 0.08276764546521008
+encoded src size: 43
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+Epoch 6/10, Avg Training Loss: 0.056325359428301455
+encoded src size: 41
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 7/10, Avg Training Loss: 0.06494148660451174
+encoded src size: 43
+Epoch 8/10, Avg Training Loss: 0.037486647008918225
+encoded src size: 43
+Epoch 9/10, Avg Training Loss: 0.027666617119684815
+encoded src size: 43
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 10/10, Avg Training Loss: 0.026255772516597064
+encoded src size: 43
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 41
+encoded src size: 11
+encoded src size: 13
+encoded src size: 13
+encoded src size: 17
+encoded src size: 19
+encoded src size: 21
+encoded src size: 21
+encoded src size: 23
+encoded src size: 27
+encoded src size: 27
+encoded src size: 25
+encoded src size: 33
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 31
+encoded src size: 33
+encoded src size: 39
+encoded src size: 39
+encoded src size: 39
+encoded src size: 45
+encoded src size: 37
+encoded src size: 45
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+encoded src size: 51
+encoded src size: 49
+encoded src size: 55
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 55
+encoded src size: 59
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 59
+encoded src size: 63
+encoded src size: 51
+encoded src size: 67
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+encoded src size: 69
+encoded src size: 63
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 73
+encoded src size: 65
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 71
+encoded src size: 79
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+encoded src size: 75
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.

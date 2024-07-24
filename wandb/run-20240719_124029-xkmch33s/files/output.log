@@ -1,0 +1,12 @@
+Epoch 1/10, Avg Training Loss: 1.3480131129423778
+Epoch 2/10, Avg Training Loss: 0.9560125122467676
+Epoch 3/10, Avg Training Loss: 0.5862922370433807
+Epoch 4/10, Avg Training Loss: 0.5819343502322832
+Epoch 5/10, Avg Training Loss: 0.6640515252947807
+Epoch 6/10, Avg Training Loss: 0.5267972598473231
+Epoch 7/10, Avg Training Loss: 0.5091811592380205
+Epoch 8/10, Avg Training Loss: 0.45568323135375977
+Epoch 9/10, Avg Training Loss: 0.4211789170900981
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch 10/10, Avg Training Loss: 0.40255442013343173
+{'<ACCEPT>': (array([0.04153846, 1.        , 1.        ]), array([1., 1., 0.])), '<REJECT>': (array([0.03538462, 1.        , 1.        ]), array([1., 1., 0.])), '<START>': (array([0.07692308, 1.        , 1.        ]), array([1., 1., 0.])), '<even>': (array([0.44769231, 1.        , 1.        ]), array([1., 1., 0.])), '<odd>': (array([0.39846154, 1.        , 1.        ]), array([1., 1., 0.]))}

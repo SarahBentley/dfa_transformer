@@ -1,0 +1,35 @@
+number of parameters: 0.19M
+num decayed parameter tensors: 42, with 194,360 parameters
+num non-decayed parameter tensors: 21, with 840 parameters
+using fused AdamW: False
+Epoch 1/30, Avg Training Loss: 0.9815295004844665
+Epoch 2/30, Avg Training Loss: 0.5401841619610787
+Epoch 3/30, Avg Training Loss: 0.3084576827287674
+Epoch 4/30, Avg Training Loss: 0.10124272411689163
+Epoch 5/30, Avg Training Loss: 0.02801396595314145
+Epoch 6/30, Avg Training Loss: 0.004325498763937503
+Epoch 7/30, Avg Training Loss: 0.0006370410474482923
+Epoch 8/30, Avg Training Loss: 0.022040892598670325
+Epoch 9/30, Avg Training Loss: 0.013844209846065497
+Epoch 10/30, Avg Training Loss: 0.02291066311459872
+Epoch 11/30, Avg Training Loss: 0.00021949830115772784
+Epoch 12/30, Avg Training Loss: 6.46324198532966e-05
+Epoch 13/30, Avg Training Loss: 2.1361397757573285e-05
+Epoch 14/30, Avg Training Loss: 3.408211270539141e-06
+Epoch 15/30, Avg Training Loss: 2.9543024973932577e-07
+Epoch 16/30, Avg Training Loss: 0.029799993597836985
+Epoch 17/30, Avg Training Loss: 6.375427803959611e-05
+Epoch 18/30, Avg Training Loss: 3.867195089242159e-06
+Epoch 19/30, Avg Training Loss: 6.562333970805412e-07
+Epoch 20/30, Avg Training Loss: 1.763523211906204e-07
+Epoch 21/30, Avg Training Loss: 3.3133309040866976e-08
+Epoch 22/30, Avg Training Loss: 0.013959090127414754
+Epoch 23/30, Avg Training Loss: 0.013543119503297021
+Epoch 24/30, Avg Training Loss: 8.846737609928822e-06
+Epoch 25/30, Avg Training Loss: 9.031251551050445e-07
+Epoch 26/30, Avg Training Loss: 1.2622315681554142e-07
+Epoch 27/30, Avg Training Loss: 1.5587773813940942e-08
+Epoch 28/30, Avg Training Loss: 3.5192352676460815e-09
+Epoch 29/30, Avg Training Loss: 2.0863794170100646e-09
+Epoch 30/30, Avg Training Loss: 0.008194532851361439
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")

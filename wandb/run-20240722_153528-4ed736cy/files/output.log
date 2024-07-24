@@ -1,0 +1,55 @@
+number of parameters: 0.19M
+num decayed parameter tensors: 42, with 194,360 parameters
+num non-decayed parameter tensors: 21, with 840 parameters
+using fused AdamW: False
+Epoch 1/50, Avg Training Loss: 0.9268613851070404
+Epoch 2/50, Avg Training Loss: 0.45123290449380876
+Epoch 3/50, Avg Training Loss: 0.26809850133955476
+Epoch 4/50, Avg Training Loss: 0.08237106593325734
+Epoch 5/50, Avg Training Loss: 0.030427067545242607
+Epoch 6/50, Avg Training Loss: 0.002838008697144687
+Epoch 7/50, Avg Training Loss: 0.047771596515667626
+Epoch 8/50, Avg Training Loss: 0.010605227935593575
+Epoch 9/50, Avg Training Loss: 0.0006857491034315899
+Epoch 10/50, Avg Training Loss: 0.0001633438670251053
+Epoch 11/50, Avg Training Loss: 0.002452974698203434
+Epoch 12/50, Avg Training Loss: 0.023239351085867384
+Epoch 13/50, Avg Training Loss: 0.000813564026448148
+Epoch 14/50, Avg Training Loss: 1.342225914413575e-05
+Epoch 15/50, Avg Training Loss: 7.259290991896706e-06
+Epoch 16/50, Avg Training Loss: 2.212790195130765e-06
+Epoch 17/50, Avg Training Loss: 2.344283115807144e-07
+Epoch 18/50, Avg Training Loss: 3.6868269659429133e-09
+Epoch 19/50, Avg Training Loss: 0.05128338148415097
+Epoch 20/50, Avg Training Loss: 5.949079036327021e-05
+Epoch 21/50, Avg Training Loss: 0.01366592219760605
+Epoch 22/50, Avg Training Loss: 0.015287170074234382
+Epoch 23/50, Avg Training Loss: 0.004177732169919182
+Epoch 24/50, Avg Training Loss: 9.093529110941744e-06
+Epoch 25/50, Avg Training Loss: 1.3633279377245344e-06
+Epoch 26/50, Avg Training Loss: 3.543565912877966e-07
+Epoch 27/50, Avg Training Loss: 1.0367291261914602e-07
+Epoch 28/50, Avg Training Loss: 1.1146072692591603e-08
+Epoch 29/50, Avg Training Loss: 0.011245344804665476
+Epoch 30/50, Avg Training Loss: 0.0005931765783270749
+Epoch 31/50, Avg Training Loss: 0.02943317998532393
+Epoch 32/50, Avg Training Loss: 0.00011276868656750593
+Epoch 33/50, Avg Training Loss: 0.006026600309563718
+Epoch 34/50, Avg Training Loss: 0.001489734142865018
+Epoch 35/50, Avg Training Loss: 0.008157178308287598
+Epoch 36/50, Avg Training Loss: 1.75298242493227e-05
+Epoch 37/50, Avg Training Loss: 1.4607412732914326e-06
+Epoch 38/50, Avg Training Loss: 1.6994066431408328e-07
+Epoch 39/50, Avg Training Loss: 3.0208712700208194e-08
+Epoch 40/50, Avg Training Loss: 6.5945881544404725e-09
+Epoch 41/50, Avg Training Loss: 1.0436512287714806e-09
+Epoch 42/50, Avg Training Loss: 5.428305327459526e-10
+Epoch 43/50, Avg Training Loss: 0.012944437497735004
+Epoch 44/50, Avg Training Loss: 0.00845049981037846
+Epoch 45/50, Avg Training Loss: 0.0024701204495215733
+Epoch 46/50, Avg Training Loss: 3.837580029752985e-06
+Epoch 47/50, Avg Training Loss: 7.893180119289411e-08
+Epoch 48/50, Avg Training Loss: 1.3842395250041052e-08
+Epoch 49/50, Avg Training Loss: 1.964593913106327e-09
+Epoch 50/50, Avg Training Loss: 6.379921901888963e-10
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")

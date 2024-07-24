@@ -1,0 +1,15 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 40,760 parameters
+num non-decayed parameter tensors: 5, with 200 parameters
+using fused AdamW: False
+Epoch 1/10, Avg Training Loss: 0.8748238933086395
+Epoch 2/10, Avg Training Loss: 0.14027487006038428
+Epoch 3/10, Avg Training Loss: 0.010936430331785232
+Epoch 4/10, Avg Training Loss: 0.0010928898365818896
+Epoch 5/10, Avg Training Loss: 0.00010475304339706782
+Epoch 6/10, Avg Training Loss: 0.1096411603450997
+Epoch 7/10, Avg Training Loss: 0.0031021355887423854
+Epoch 8/10, Avg Training Loss: 2.960258911116398e-05
+Epoch 9/10, Avg Training Loss: 1.322493827501603e-05
+Epoch 10/10, Avg Training Loss: 4.13746996628106e-06
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")

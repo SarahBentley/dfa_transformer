@@ -1,0 +1,105 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 41,160 parameters
+num non-decayed parameter tensors: 5, with 200 parameters
+using fused AdamW: False
+Epoch 1/10, Avg Training Loss: 0.9451494139432907
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Skipping AUC calculation for class <END> as it has only one class present in true labels.
+Skipping AUC calculation for class <pad> as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 2/10, Avg Training Loss: 0.4538210555911064
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Epoch 3/10, Avg Training Loss: 0.3139279232919216
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+Skipping AUC calculation for class <END> as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 4/10, Avg Training Loss: 0.21203134261071682
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 5/10, Avg Training Loss: 0.1124472164735198
+Epoch 6/10, Avg Training Loss: 0.07300711194984615
+Epoch 7/10, Avg Training Loss: 0.0349678187770769
+Epoch 8/10, Avg Training Loss: 0.02805879920721054
+Epoch 9/10, Avg Training Loss: 0.012973299839068204
+Epoch 10/10, Avg Training Loss: 0.012731821439228953
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning:
+Mean of empty slice.
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning:
+invalid value encountered in scalar divide
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning:
+No positive class found in y_true, recall is set to one for all thresholds.
+Traceback (most recent call last):
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 118, in <module>
+    main(args)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 111, in main
+    by_length = metrics_by_length(model, DFA, [i for i in range(4,args.max_seq_len*2)], batch_size=args.batch_size, pad_idx=0)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/inference_GPT.py", line 56, in metrics_by_length
+    y_true, y_pred = infer(model, dataloader)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/inference_GPT.py", line 27, in infer
+    logits, _ = model(pred)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/GPT.py", line 168, in forward
+    assert t <= self.config.block_size, f"Cannot forward sequence of length {t}, block size is only {self.config.block_size}"
+AssertionError: Cannot forward sequence of length 61, block size is only 60

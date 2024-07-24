@@ -1,0 +1,75 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 40,760 parameters
+num non-decayed parameter tensors: 18, with 1,120 parameters
+using fused AdamW: False
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 1/50, Avg Training Loss: 0.9549541965126991
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Skipping AUC calculation for class 1 as it has only one class present in true labels.
+Skipping AUC calculation for class <END> as it has only one class present in true labels.
+Epoch 2/50, Avg Training Loss: 0.3069680118560791
+Skipping AUC calculation for class 0 as it has only one class present in true labels.
+Epoch 3/50, Avg Training Loss: 0.06055106826126575
+Epoch 4/50, Avg Training Loss: 0.020370077984407545
+Epoch 5/50, Avg Training Loss: 0.004745461433194578
+Epoch 6/50, Avg Training Loss: 0.0007956097935675644
+Epoch 7/50, Avg Training Loss: 0.00010722314213126084
+Epoch 8/50, Avg Training Loss: 9.900343661684019e-06
+Epoch 9/50, Avg Training Loss: 0.06480736843230034
+Epoch 10/50, Avg Training Loss: 8.513768305419945e-05
+Epoch 11/50, Avg Training Loss: 9.499575810423266e-06
+Epoch 12/50, Avg Training Loss: 3.100989627000672e-06
+Epoch 13/50, Avg Training Loss: 1.326145621192154e-06
+Epoch 14/50, Avg Training Loss: 2.0652670574605735e-07
+Epoch 15/50, Avg Training Loss: 3.3839437929561457e-09
+Epoch 16/50, Avg Training Loss: 0.02188592348481858
+Epoch 17/50, Avg Training Loss: 0.000913528700190227
+Epoch 18/50, Avg Training Loss: 1.2396042311024757e-06
+Epoch 19/50, Avg Training Loss: 2.6779063183823837e-07
+Epoch 20/50, Avg Training Loss: 4.545028872371404e-08
+Epoch 21/50, Avg Training Loss: 5.803237201895683e-09
+Epoch 22/50, Avg Training Loss: 1.2928662607158969e-09
+Epoch 23/50, Avg Training Loss: 7.983327510174831e-10
+Epoch 24/50, Avg Training Loss: 6.135101637827489e-10
+Traceback (most recent call last):
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 119, in <module>
+    main(args)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 98, in main
+    train_loss = train_GPT(model, trainconf, device_type=device)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train_GPT.py", line 17, in train_GPT
+    src, tgt = config.dataloader.generate_batch()
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/dataloader.py", line 49, in generate_batch
+    states = self.DFA.process_sequence(symbols).split(' ')
+  File "/Users/sarahbentley/dfa_transformer/src/DFA/DFA.py", line 117, in process_sequence
+    self.transition(symbol)
+  File "/Users/sarahbentley/dfa_transformer/src/DFA/DFA.py", line 89, in transition
+    def transition(self, symbol):
+KeyboardInterrupt
+Epoch 25/50, Avg Training Loss: 7.881056129921404e-10

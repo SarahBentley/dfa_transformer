@@ -1,0 +1,41 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 40,760 parameters
+num non-decayed parameter tensors: 18, with 1,120 parameters
+using fused AdamW: False
+Epoch 1/50, Avg Training Loss: 1.0661032378673554
+Skipping AUC calculation for class <pad> as it has only one class present in true labels.
+Epoch 2/50, Avg Training Loss: 0.6069653189182281
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 3/50, Avg Training Loss: 0.39957258850336075
+Epoch 4/50, Avg Training Loss: 0.33859698712825775
+Epoch 5/50, Avg Training Loss: 0.31829257667064664
+Epoch 6/50, Avg Training Loss: 0.3034662500023842
+Traceback (most recent call last):
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 117, in <module>
+    main(args)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 96, in main
+    train_loss = train_GPT(model, trainconf, device_type=device)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train_GPT.py", line 17, in train_GPT
+    src, tgt = config.dataloader.generate_batch()
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/dataloader.py", line 49, in generate_batch
+    states = self.DFA.process_sequence(symbols).split(' ')
+  File "/Users/sarahbentley/dfa_transformer/src/DFA/DFA.py", line 117, in process_sequence
+    self.transition(symbol)
+  File "/Users/sarahbentley/dfa_transformer/src/DFA/DFA.py", line 101, in transition
+    next_state = self.state_encoder.single_decode(next_state_vec)
+  File "/Users/sarahbentley/dfa_transformer/src/DFA/DFA.py", line 58, in single_decode
+    idx = np.where(np.all(self.encoded == elt, axis=1))
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 2504, in all
+    return _wrapreduction(a, np.logical_and, 'all', axis, None, out,
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+KeyboardInterrupt

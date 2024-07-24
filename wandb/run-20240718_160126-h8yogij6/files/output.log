@@ -1,0 +1,17 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 40,760 parameters
+num non-decayed parameter tensors: 18, with 1,120 parameters
+using fused AdamW: False
+Epoch 1/10, Avg Training Loss: 1.0653605252504348
+Traceback (most recent call last):
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 114, in <module>
+    main(args)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train.py", line 96, in main
+    train_loss = train_GPT(model, trainconf, device_type=device)
+  File "/Users/sarahbentley/dfa_transformer/src/GPT/train_GPT.py", line 48, in train_GPT
+    wandb.log({"epoch": epoch, "loss": avg_loss} + metrics)
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'

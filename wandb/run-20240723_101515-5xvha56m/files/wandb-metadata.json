@@ -1,0 +1,59 @@
+{
+    "os": "macOS-14.4.1-x86_64-i386-64bit",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-07-23T08:15:16.208391",
+    "startedAt": "2024-07-23T08:15:15.679440",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--max_seq_len",
+        "20",
+        "--num_epochs",
+        "50",
+        "--batch_size",
+        "10",
+        "--num_batches",
+        "10",
+        "--n_embd",
+        "5",
+        "--MLP_width",
+        "25",
+        "--lr",
+        "0.005",
+        "--n_layer",
+        "5",
+        "--block_size",
+        "60",
+        "--n_head",
+        "5"
+    ],
+    "state": "running",
+    "program": "-m src.GPT.train",
+    "codePathLocal": null,
+    "host": "tsf-436-wpa-4-100.epfl.ch",
+    "username": "sarahbentley",
+    "executable": "/Users/sarahbentley/dfa_transformer/venv/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2600,
+        "min": 2600,
+        "max": 2600
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600,
+            "min": 2600,
+            "max": 2600
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.46913528442383,
+            "used": 12.543170928955078
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

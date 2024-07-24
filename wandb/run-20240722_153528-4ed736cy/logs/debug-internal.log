@@ -1,0 +1,794 @@
+2024-07-22 15:35:28,825 INFO    StreamThr :24500 [internal.py:wandb_internal():85] W&B internal server running at pid: 24500, started at: 2024-07-22 15:35:28.824761
+2024-07-22 15:35:28,826 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status
+2024-07-22 15:35:28,830 INFO    WriterThread:24500 [datastore.py:open_for_write():87] open: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/run-4ed736cy.wandb
+2024-07-22 15:35:28,830 DEBUG   SenderThread:24500 [sender.py:send():379] send: header
+2024-07-22 15:35:28,830 DEBUG   SenderThread:24500 [sender.py:send():379] send: run
+2024-07-22 15:35:29,230 INFO    SenderThread:24500 [dir_watcher.py:__init__():211] watching files in: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files
+2024-07-22 15:35:29,230 INFO    SenderThread:24500 [sender.py:_start_run_threads():1188] run started: 4ed736cy with start time 1721655328.825433
+2024-07-22 15:35:29,239 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: check_version
+2024-07-22 15:35:29,239 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: check_version
+2024-07-22 15:35:29,324 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: run_start
+2024-07-22 15:35:29,332 DEBUG   HandlerThread:24500 [system_info.py:__init__():26] System info init
+2024-07-22 15:35:29,333 DEBUG   HandlerThread:24500 [system_info.py:__init__():41] System info init done
+2024-07-22 15:35:29,333 INFO    HandlerThread:24500 [system_monitor.py:start():194] Starting system monitor
+2024-07-22 15:35:29,333 INFO    SystemMonitor:24500 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-22 15:35:29,334 INFO    HandlerThread:24500 [system_monitor.py:probe():214] Collecting system info
+2024-07-22 15:35:29,334 INFO    SystemMonitor:24500 [interfaces.py:start():188] Started cpu monitoring
+2024-07-22 15:35:29,335 INFO    SystemMonitor:24500 [interfaces.py:start():188] Started disk monitoring
+2024-07-22 15:35:29,335 INFO    SystemMonitor:24500 [interfaces.py:start():188] Started memory monitoring
+2024-07-22 15:35:29,336 DEBUG   HandlerThread:24500 [system_info.py:probe():152] Probing system
+2024-07-22 15:35:29,338 INFO    SystemMonitor:24500 [interfaces.py:start():188] Started network monitoring
+2024-07-22 15:35:29,343 DEBUG   HandlerThread:24500 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-22 15:35:29,344 DEBUG   HandlerThread:24500 [system_info.py:probe():200] Probing system done
+2024-07-22 15:35:29,344 DEBUG   HandlerThread:24500 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-x86_64-i386-64bit', 'python': '3.10.12', 'heartbeatAt': '2024-07-22T13:35:29.336745', 'startedAt': '2024-07-22T13:35:28.819410', 'docker': None, 'cuda': None, 'args': ('--name', 'difflengths', '--n_head', '1', '--n_layer', '10', '--num_epoch', '50'), 'state': 'running', 'program': '-m src.GPT.train', 'codePathLocal': None, 'host': 'tsf-436-wpa-7-119.epfl.ch', 'username': 'sarahbentley', 'executable': '/Users/sarahbentley/dfa_transformer/venv/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2600, 'min': 2600, 'max': 2600}, 'cpu_freq_per_core': [{'current': 2600, 'min': 2600, 'max': 2600}], 'disk': {'/': {'total': 233.46913528442383, 'used': 12.543170928955078}}, 'memory': {'total': 16.0}}
+2024-07-22 15:35:29,344 INFO    HandlerThread:24500 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-22 15:35:29,344 INFO    HandlerThread:24500 [system_monitor.py:probe():227] Publishing system info
+2024-07-22 15:35:29,345 INFO    HandlerThread:24500 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-22 15:35:29,349 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:35:29,349 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-22 15:35:29,488 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-22 15:35:29,489 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: python_packages
+2024-07-22 15:35:29,490 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:29,490 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:35:29,491 DEBUG   SenderThread:24500 [sender.py:send():379] send: telemetry
+2024-07-22 15:35:29,491 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:35:29,906 INFO    wandb-upload_0:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/l21b03ou-wandb-metadata.json
+2024-07-22 15:35:30,233 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-metadata.json
+2024-07-22 15:35:30,233 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/requirements.txt
+2024-07-22 15:35:30,233 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:30,424 DEBUG   SenderThread:24500 [sender.py:send():379] send: telemetry
+2024-07-22 15:35:30,493 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:30,668 DEBUG   SenderThread:24500 [sender.py:send():379] send: telemetry
+2024-07-22 15:35:31,494 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:32,236 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:32,495 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:33,486 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:33,487 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:33,488 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:33,488 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:33,499 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:34,237 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:34,488 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:35:34,503 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:35,504 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:35,817 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:35,817 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:35,817 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:35,818 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:36,239 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:36,239 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:36,506 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:37,508 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:38,191 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:38,192 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:38,192 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:38,192 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:38,245 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:38,245 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:38,514 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:39,496 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:35:39,519 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:40,246 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:40,520 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:40,572 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:40,573 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:40,573 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:40,574 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:41,247 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:41,525 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:42,252 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:42,526 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:43,282 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:43,283 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:43,283 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:43,284 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:43,529 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:44,262 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:44,262 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:44,491 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:35:44,509 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:35:44,530 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:44,689 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:35:45,530 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:45,718 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:45,719 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:45,719 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:45,720 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:46,268 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:46,531 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:47,539 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:48,194 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:48,194 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:48,194 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:48,195 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:48,276 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:48,277 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:48,535 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:49,538 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:50,285 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:50,501 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:35:50,540 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:50,745 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:50,745 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:50,746 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:50,746 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:51,285 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:51,542 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:52,288 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:52,544 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:53,256 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:53,257 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:53,257 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:53,258 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:53,288 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:53,547 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:54,289 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:54,551 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:55,504 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:35:55,557 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:55,726 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:55,727 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:55,727 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:55,727 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:56,298 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:56,560 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:57,562 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:58,251 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:35:58,252 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:35:58,252 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:35:58,253 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:35:58,305 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:35:58,305 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:35:58,565 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:35:59,491 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:35:59,491 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:35:59,568 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:00,312 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:00,572 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:00,659 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:00,871 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:00,872 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:00,872 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:00,872 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:01,312 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:01,312 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/config.yaml
+2024-07-22 15:36:01,576 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:02,312 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:02,577 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:03,582 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:03,584 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:03,585 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:03,585 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:03,585 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:04,320 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:04,586 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:05,588 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:06,014 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:06,120 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:06,121 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:06,121 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:06,122 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:06,326 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:06,326 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:06,591 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:07,596 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:08,334 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:08,597 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:08,668 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:08,669 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:08,669 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:08,669 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:09,337 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:09,601 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:10,339 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:10,602 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:11,086 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:11,193 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:11,193 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:11,193 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:11,194 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:11,339 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:11,604 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:12,341 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:12,608 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:13,609 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:13,939 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:13,939 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:13,939 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:13,941 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:14,342 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:14,495 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:36:14,495 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:36:14,610 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:15,610 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:16,344 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:16,572 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:16,614 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:16,683 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:16,684 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:16,684 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:16,685 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:17,346 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:17,617 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:18,350 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:18,621 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:19,391 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:19,391 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:19,392 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:19,393 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:19,623 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:20,352 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:20,352 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:20,626 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:21,627 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:22,029 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:22,156 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:22,157 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:22,157 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:22,158 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:22,353 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:22,630 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:23,635 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:24,359 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:24,635 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:24,890 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:24,890 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:24,890 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:24,891 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:25,359 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:25,636 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:26,360 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:26,640 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:27,510 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:27,624 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:27,625 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:27,625 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:27,625 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:27,642 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:28,367 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:28,643 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:29,341 DEBUG   SystemMonitor:24500 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-22 15:36:29,342 DEBUG   SenderThread:24500 [sender.py:send():379] send: stats
+2024-07-22 15:36:29,492 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:36:29,493 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:36:29,645 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:30,369 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:30,490 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:30,491 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:30,491 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:30,492 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:30,650 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:31,370 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:31,651 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:32,370 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:32,653 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:33,500 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:33,654 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:34,313 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:34,314 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:34,314 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:34,315 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:34,378 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:34,661 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:35,662 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:36,383 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:36,667 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:37,020 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:37,021 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:37,022 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:37,022 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:37,384 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:37,668 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:38,384 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:38,671 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:39,030 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:39,676 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:39,835 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:39,836 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:39,836 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:39,837 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:40,390 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:40,679 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:41,683 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:42,396 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:42,685 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:42,686 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:42,686 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:42,687 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:42,692 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:43,396 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:43,685 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:44,400 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:44,492 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:36:44,492 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:36:44,688 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:44,688 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:45,676 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:45,676 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:45,677 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:45,677 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:45,689 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:46,409 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:46,691 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:47,691 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:48,412 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:48,413 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:48,413 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:48,413 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:48,417 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:48,418 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:48,694 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:49,694 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:50,419 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:50,534 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:50,699 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:51,256 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:51,257 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:51,257 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:51,258 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:51,421 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:51,709 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:52,425 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:52,710 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:53,712 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:54,061 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:54,061 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:54,062 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:54,062 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:54,433 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:54,715 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:55,537 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:36:55,717 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:56,435 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:56,719 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:56,733 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:56,734 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:56,735 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:56,735 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:57,440 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:36:57,725 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:58,441 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:36:58,727 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:36:59,342 DEBUG   SenderThread:24500 [sender.py:send():379] send: stats
+2024-07-22 15:36:59,464 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:36:59,464 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:36:59,464 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:36:59,465 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:36:59,498 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:36:59,498 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:36:59,732 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:00,442 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:00,442 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:00,697 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:00,734 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:01,736 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:02,382 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:02,383 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:02,383 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:02,383 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:02,448 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:02,739 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:03,743 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:04,451 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:04,745 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:05,314 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:05,315 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:05,315 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:05,316 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:05,453 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:05,749 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:06,317 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:06,459 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:06,753 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:07,754 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:08,193 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:08,194 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:08,194 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:08,195 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:08,465 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:08,758 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:09,761 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:10,470 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:10,763 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:11,038 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:11,039 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:11,039 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:11,040 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:11,475 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:11,766 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:12,040 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:12,476 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:12,779 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:13,779 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:14,166 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:14,166 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:14,167 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:14,167 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:14,480 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:14,499 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:37:14,500 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:37:14,782 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:15,788 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:16,482 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:16,797 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:17,237 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:17,370 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:17,370 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:17,371 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:17,371 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:17,486 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:17,797 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:18,488 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:18,803 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:19,802 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:20,805 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:20,889 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:20,890 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:20,891 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:20,892 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:21,496 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:21,809 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:22,500 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:22,814 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:22,893 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:23,815 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:24,807 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:24,807 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:24,808 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:24,808 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:24,818 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:25,507 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:25,820 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:26,508 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:26,825 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:27,827 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:28,765 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:28,832 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:28,913 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:28,914 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:28,915 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:28,915 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:29,344 DEBUG   SenderThread:24500 [sender.py:send():379] send: stats
+2024-07-22 15:37:29,506 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:37:29,507 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:37:29,519 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:29,834 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:30,525 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:30,837 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:31,841 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:32,842 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:33,558 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:33,559 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:33,560 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:33,561 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:33,845 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:34,534 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:34,535 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:34,553 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:34,848 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:35,852 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:36,855 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:37,859 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:38,091 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:38,092 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:38,092 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:38,093 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:38,541 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:38,861 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:39,554 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:39,865 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:40,547 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:40,868 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:41,871 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:42,188 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:42,189 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:42,190 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:42,190 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:42,550 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:42,875 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:43,878 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:44,510 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:37:44,510 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:37:44,553 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:44,668 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:44,878 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:45,889 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:46,706 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:46,707 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:46,707 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:46,708 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:46,891 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:47,560 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:47,902 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:48,561 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:48,904 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:49,908 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:50,559 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:50,909 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:51,092 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:51,093 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:51,093 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:51,094 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:51,569 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:51,915 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:52,574 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:52,919 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:53,921 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:54,924 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:55,746 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:37:55,747 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:37:55,747 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:37:55,748 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:37:55,749 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:37:55,935 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:56,586 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:37:56,587 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:37:56,938 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:57,935 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:58,944 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:37:59,345 DEBUG   SenderThread:24500 [sender.py:send():379] send: stats
+2024-07-22 15:37:59,512 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-22 15:37:59,512 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: stop_status
+2024-07-22 15:37:59,948 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:00,509 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:38:00,510 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:38:00,510 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:38:00,511 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:00,593 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:38:00,950 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:01,513 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:38:01,952 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:02,597 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:38:02,956 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:03,959 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:04,962 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:05,406 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:38:05,407 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:38:05,408 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:38:05,408 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:05,425 DEBUG   SenderThread:24500 [sender.py:send():379] send: telemetry
+2024-07-22 15:38:05,426 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:05,426 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file GPT_outputs/run_20240722_1538_GPT_ParityDFA_difflengths_lr0.001_s10_model.pth with policy live
+2024-07-22 15:38:05,608 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:38:05,608 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/GPT_outputs/run_20240722_1538_GPT_ParityDFA_difflengths_lr0.001_s10_model.pth
+2024-07-22 15:38:05,608 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/GPT_outputs
+2024-07-22 15:38:05,964 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:06,223 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:06,223 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/precision_recall_fscore_50_9cb78ef874c589ff33ed.plotly.json with policy now
+2024-07-22 15:38:06,231 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:38:06,232 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:06,232 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/precision_recall_curve_50_5935ced5bce884ef19aa.plotly.json with policy now
+2024-07-22 15:38:06,232 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:38:06,233 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:38:06,233 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:06,597 INFO    wandb-upload_0:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/707qihzq-GPT_outputs/run_20240722_1538_GPT_ParityDFA_difflengths_lr0.001_s10_model.pth
+2024-07-22 15:38:06,611 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:38:06,612 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:38:06,612 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/precision_recall_fscore_50_9cb78ef874c589ff33ed.plotly.json
+2024-07-22 15:38:06,612 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/precision_recall_curve_50_5935ced5bce884ef19aa.plotly.json
+2024-07-22 15:38:06,613 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media
+2024-07-22 15:38:06,613 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly
+2024-07-22 15:38:06,654 INFO    wandb-upload_1:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/1rupo9n2-media/plotly/precision_recall_fscore_50_9cb78ef874c589ff33ed.plotly.json
+2024-07-22 15:38:06,682 INFO    wandb-upload_2:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/6tr6esxb-media/plotly/precision_recall_curve_50_5935ced5bce884ef19aa.plotly.json
+2024-07-22 15:38:06,965 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:07,164 INFO    wandb-upload_0:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/7vu1xucl-media/plotly/precision_recall_fscore_50_9cb78ef874c589ff33ed.plotly.json
+2024-07-22 15:38:07,164 INFO    wandb-upload_1:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/04q29573-media/plotly/precision_recall_curve_50_5935ced5bce884ef19aa.plotly.json
+2024-07-22 15:38:07,238 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:38:07,613 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:38:07,968 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:08,971 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:09,974 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:10,322 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:38:10,323 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,323 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/Performance metrics by length_51_3f2a4c0ace3af2e66bcd.plotly.json with policy now
+2024-07-22 15:38:10,323 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:38:10,323 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:38:10,324 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:10,464 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,464 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_0_head_0_52_485f6de6817aeba5b652.plotly.json with policy now
+2024-07-22 15:38:10,475 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,475 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_1_head_0_52_e759550df326f2d03b6b.plotly.json with policy now
+2024-07-22 15:38:10,483 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,484 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_2_head_0_52_64b8c8b6f42fd54862fd.plotly.json with policy now
+2024-07-22 15:38:10,493 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,493 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_3_head_0_52_05768ed3a922d587557a.plotly.json with policy now
+2024-07-22 15:38:10,502 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,503 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_4_head_0_52_002cadfc820a4601827f.plotly.json with policy now
+2024-07-22 15:38:10,511 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,511 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_5_head_0_52_566894e3df2a57bc4ea0.plotly.json with policy now
+2024-07-22 15:38:10,521 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,521 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_6_head_0_52_12e82eeaeb6208329cd1.plotly.json with policy now
+2024-07-22 15:38:10,537 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,537 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_7_head_0_52_7856d5c301a0b1a0ef3f.plotly.json with policy now
+2024-07-22 15:38:10,546 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,546 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_8_head_0_52_5c2cdfcdc84fc5720f75.plotly.json with policy now
+2024-07-22 15:38:10,556 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-22 15:38:10,557 DEBUG   SenderThread:24500 [sender.py:send():379] send: files
+2024-07-22 15:38:10,557 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file media/plotly/layer_9_head_0_52_6b94e7fbc26da9fdea42.plotly.json with policy now
+2024-07-22 15:38:10,558 DEBUG   SenderThread:24500 [sender.py:send():379] send: history
+2024-07-22 15:38:10,559 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: summary_record
+2024-07-22 15:38:10,561 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:10,562 DEBUG   SenderThread:24500 [sender.py:send():379] send: exit
+2024-07-22 15:38:10,562 INFO    SenderThread:24500 [sender.py:send_exit():586] handling exit code: 0
+2024-07-22 15:38:10,563 INFO    SenderThread:24500 [sender.py:send_exit():588] handling runtime: 161
+2024-07-22 15:38:10,564 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:10,565 INFO    SenderThread:24500 [sender.py:send_exit():594] send defer
+2024-07-22 15:38:10,565 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,565 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-22 15:38:10,568 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,568 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-22 15:38:10,568 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 1
+2024-07-22 15:38:10,569 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,569 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-22 15:38:10,569 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,570 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-22 15:38:10,570 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 2
+2024-07-22 15:38:10,570 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,571 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-22 15:38:10,571 INFO    HandlerThread:24500 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-22 15:38:10,571 INFO    HandlerThread:24500 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-22 15:38:10,571 DEBUG   SystemMonitor:24500 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-22 15:38:10,572 INFO    HandlerThread:24500 [interfaces.py:finish():200] Joined disk monitor
+2024-07-22 15:38:10,572 DEBUG   SystemMonitor:24500 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-22 15:38:10,572 INFO    HandlerThread:24500 [interfaces.py:finish():200] Joined memory monitor
+2024-07-22 15:38:10,573 INFO    HandlerThread:24500 [interfaces.py:finish():200] Joined network monitor
+2024-07-22 15:38:10,574 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,574 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-22 15:38:10,574 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 3
+2024-07-22 15:38:10,574 DEBUG   SenderThread:24500 [sender.py:send():379] send: stats
+2024-07-22 15:38:10,574 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,575 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-22 15:38:10,575 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,575 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-22 15:38:10,575 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 4
+2024-07-22 15:38:10,576 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,576 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-22 15:38:10,576 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,576 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-22 15:38:10,576 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 5
+2024-07-22 15:38:10,576 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,577 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-22 15:38:10,578 DEBUG   SenderThread:24500 [sender.py:send():379] send: summary
+2024-07-22 15:38:10,578 INFO    SenderThread:24500 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-22 15:38:10,579 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,579 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-22 15:38:10,579 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 6
+2024-07-22 15:38:10,580 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,580 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-22 15:38:10,580 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,580 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-22 15:38:10,586 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: status_report
+2024-07-22 15:38:10,623 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:38:10,623 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_1_head_0_52_e759550df326f2d03b6b.plotly.json
+2024-07-22 15:38:10,625 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_3_head_0_52_05768ed3a922d587557a.plotly.json
+2024-07-22 15:38:10,626 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_9_head_0_52_6b94e7fbc26da9fdea42.plotly.json
+2024-07-22 15:38:10,627 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_2_head_0_52_64b8c8b6f42fd54862fd.plotly.json
+2024-07-22 15:38:10,627 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_5_head_0_52_566894e3df2a57bc4ea0.plotly.json
+2024-07-22 15:38:10,628 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/Performance metrics by length_51_3f2a4c0ace3af2e66bcd.plotly.json
+2024-07-22 15:38:10,629 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_0_head_0_52_485f6de6817aeba5b652.plotly.json
+2024-07-22 15:38:10,629 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_4_head_0_52_002cadfc820a4601827f.plotly.json
+2024-07-22 15:38:10,629 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_6_head_0_52_12e82eeaeb6208329cd1.plotly.json
+2024-07-22 15:38:10,630 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_7_head_0_52_7856d5c301a0b1a0ef3f.plotly.json
+2024-07-22 15:38:10,630 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_8_head_0_52_5c2cdfcdc84fc5720f75.plotly.json
+2024-07-22 15:38:10,630 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly
+2024-07-22 15:38:10,734 INFO    wandb-upload_2:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/95kbril1-media/plotly/Performance metrics by length_51_3f2a4c0ace3af2e66bcd.plotly.json
+2024-07-22 15:38:10,822 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 7
+2024-07-22 15:38:10,822 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:10,822 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-22 15:38:10,823 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:10,823 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-22 15:38:10,839 INFO    wandb-upload_1:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/2b88l5ud-media/plotly/layer_0_head_0_52_485f6de6817aeba5b652.plotly.json
+2024-07-22 15:38:10,888 INFO    wandb-upload_0:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/9lzy66ln-media/plotly/layer_1_head_0_52_e759550df326f2d03b6b.plotly.json
+2024-07-22 15:38:10,922 INFO    wandb-upload_3:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/88zxxvv1-media/plotly/layer_2_head_0_52_64b8c8b6f42fd54862fd.plotly.json
+2024-07-22 15:38:10,982 INFO    wandb-upload_5:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/kzbwd4yq-media/plotly/layer_4_head_0_52_002cadfc820a4601827f.plotly.json
+2024-07-22 15:38:10,994 INFO    wandb-upload_6:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/v5q728e4-media/plotly/layer_5_head_0_52_566894e3df2a57bc4ea0.plotly.json
+2024-07-22 15:38:10,995 INFO    wandb-upload_7:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/kwada2r6-media/plotly/layer_6_head_0_52_12e82eeaeb6208329cd1.plotly.json
+2024-07-22 15:38:10,995 INFO    wandb-upload_4:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/rwplsjyc-media/plotly/layer_3_head_0_52_05768ed3a922d587557a.plotly.json
+2024-07-22 15:38:11,018 INFO    wandb-upload_10:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/lih39gua-media/plotly/layer_9_head_0_52_6b94e7fbc26da9fdea42.plotly.json
+2024-07-22 15:38:11,021 INFO    wandb-upload_8:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/gzk71e85-media/plotly/layer_7_head_0_52_7856d5c301a0b1a0ef3f.plotly.json
+2024-07-22 15:38:11,032 INFO    wandb-upload_9:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/btsq1chz-media/plotly/layer_8_head_0_52_5c2cdfcdc84fc5720f75.plotly.json
+2024-07-22 15:38:11,378 INFO    wandb-upload_2:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/b0tmci3i-media/plotly/layer_2_head_0_52_64b8c8b6f42fd54862fd.plotly.json
+2024-07-22 15:38:11,468 INFO    wandb-upload_1:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/vcgpcm7f-media/plotly/layer_0_head_0_52_485f6de6817aeba5b652.plotly.json
+2024-07-22 15:38:11,482 INFO    wandb-upload_4:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/715n61ym-media/plotly/layer_6_head_0_52_12e82eeaeb6208329cd1.plotly.json
+2024-07-22 15:38:11,486 INFO    wandb-upload_0:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/h16zywae-media/plotly/Performance metrics by length_51_3f2a4c0ace3af2e66bcd.plotly.json
+2024-07-22 15:38:11,511 INFO    wandb-upload_3:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/cycf7pdp-media/plotly/layer_7_head_0_52_7856d5c301a0b1a0ef3f.plotly.json
+2024-07-22 15:38:11,517 INFO    wandb-upload_10:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/4s4d9o6g-media/plotly/layer_8_head_0_52_5c2cdfcdc84fc5720f75.plotly.json
+2024-07-22 15:38:11,564 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-22 15:38:11,600 INFO    wandb-upload_5:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/ci04fl9p-media/plotly/layer_4_head_0_52_002cadfc820a4601827f.plotly.json
+2024-07-22 15:38:11,633 INFO    Thread-12 :24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/config.yaml
+2024-07-22 15:38:11,833 INFO    wandb-upload_8:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/ex2tbv0u-media/plotly/layer_1_head_0_52_e759550df326f2d03b6b.plotly.json
+2024-07-22 15:38:11,946 INFO    wandb-upload_1:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/hkzem1yq-media/plotly/layer_5_head_0_52_566894e3df2a57bc4ea0.plotly.json
+2024-07-22 15:38:11,961 INFO    wandb-upload_9:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/mf0scqwv-media/plotly/layer_3_head_0_52_05768ed3a922d587557a.plotly.json
+2024-07-22 15:38:11,966 INFO    wandb-upload_2:24500 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpo9vpal01wandb/u1sf6jhs-media/plotly/layer_9_head_0_52_6b94e7fbc26da9fdea42.plotly.json
+2024-07-22 15:38:13,443 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 8
+2024-07-22 15:38:13,444 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: poll_exit
+2024-07-22 15:38:13,445 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:13,445 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-22 15:38:13,447 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:13,447 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-22 15:38:13,447 INFO    SenderThread:24500 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-22 15:38:13,448 INFO    SenderThread:24500 [job_builder.py:_get_source_type():580] no source found
+2024-07-22 15:38:13,449 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 9
+2024-07-22 15:38:13,449 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:13,449 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-22 15:38:13,449 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:13,449 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-22 15:38:13,449 INFO    SenderThread:24500 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-22 15:38:13,570 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-22 15:38:13,641 INFO    SenderThread:24500 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:38:13,642 INFO    SenderThread:24500 [dir_watcher.py:finish():388] scan: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files
+2024-07-22 15:38:13,642 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/requirements.txt requirements.txt
+2024-07-22 15:38:13,642 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log output.log
+2024-07-22 15:38:13,644 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/config.yaml config.yaml
+2024-07-22 15:38:13,645 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json wandb-summary.json
+2024-07-22 15:38:13,649 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-metadata.json wandb-metadata.json
+2024-07-22 15:38:13,649 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/GPT_outputs/run_20240722_1538_GPT_ParityDFA_difflengths_lr0.001_s10_model.pth GPT_outputs/run_20240722_1538_GPT_ParityDFA_difflengths_lr0.001_s10_model.pth
+2024-07-22 15:38:13,654 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/Performance metrics by length_51_3f2a4c0ace3af2e66bcd.plotly.json media/plotly/Performance metrics by length_51_3f2a4c0ace3af2e66bcd.plotly.json
+2024-07-22 15:38:13,654 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_3_head_0_52_05768ed3a922d587557a.plotly.json media/plotly/layer_3_head_0_52_05768ed3a922d587557a.plotly.json
+2024-07-22 15:38:13,654 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_0_head_0_52_485f6de6817aeba5b652.plotly.json media/plotly/layer_0_head_0_52_485f6de6817aeba5b652.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_1_head_0_52_e759550df326f2d03b6b.plotly.json media/plotly/layer_1_head_0_52_e759550df326f2d03b6b.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_9_head_0_52_6b94e7fbc26da9fdea42.plotly.json media/plotly/layer_9_head_0_52_6b94e7fbc26da9fdea42.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_8_head_0_52_5c2cdfcdc84fc5720f75.plotly.json media/plotly/layer_8_head_0_52_5c2cdfcdc84fc5720f75.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_6_head_0_52_12e82eeaeb6208329cd1.plotly.json media/plotly/layer_6_head_0_52_12e82eeaeb6208329cd1.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/precision_recall_curve_50_5935ced5bce884ef19aa.plotly.json media/plotly/precision_recall_curve_50_5935ced5bce884ef19aa.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_7_head_0_52_7856d5c301a0b1a0ef3f.plotly.json media/plotly/layer_7_head_0_52_7856d5c301a0b1a0ef3f.plotly.json
+2024-07-22 15:38:13,655 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/precision_recall_fscore_50_9cb78ef874c589ff33ed.plotly.json media/plotly/precision_recall_fscore_50_9cb78ef874c589ff33ed.plotly.json
+2024-07-22 15:38:13,656 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_5_head_0_52_566894e3df2a57bc4ea0.plotly.json media/plotly/layer_5_head_0_52_566894e3df2a57bc4ea0.plotly.json
+2024-07-22 15:38:13,656 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_2_head_0_52_64b8c8b6f42fd54862fd.plotly.json media/plotly/layer_2_head_0_52_64b8c8b6f42fd54862fd.plotly.json
+2024-07-22 15:38:13,656 INFO    SenderThread:24500 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/media/plotly/layer_4_head_0_52_002cadfc820a4601827f.plotly.json media/plotly/layer_4_head_0_52_002cadfc820a4601827f.plotly.json
+2024-07-22 15:38:13,656 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 10
+2024-07-22 15:38:13,656 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: poll_exit
+2024-07-22 15:38:13,656 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:13,656 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-22 15:38:13,657 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:13,657 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-22 15:38:13,657 INFO    SenderThread:24500 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-22 15:38:14,066 INFO    wandb-upload_7:24500 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/config.yaml
+2024-07-22 15:38:14,066 INFO    wandb-upload_4:24500 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/requirements.txt
+2024-07-22 15:38:14,072 INFO    wandb-upload_0:24500 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/output.log
+2024-07-22 15:38:14,092 INFO    wandb-upload_10:24500 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/files/wandb-summary.json
+2024-07-22 15:38:14,297 INFO    Thread-11 (_thread_body):24500 [sender.py:transition_state():614] send defer: 11
+2024-07-22 15:38:14,297 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:14,298 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-22 15:38:14,298 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:14,298 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-22 15:38:14,298 INFO    SenderThread:24500 [file_pusher.py:join():175] waiting for file pusher
+2024-07-22 15:38:14,307 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 12
+2024-07-22 15:38:14,308 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:14,308 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-22 15:38:14,308 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:14,308 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-22 15:38:14,308 INFO    SenderThread:24500 [file_stream.py:finish():601] file stream finish called
+2024-07-22 15:38:14,574 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-22 15:38:14,836 INFO    SenderThread:24500 [file_stream.py:finish():605] file stream finish is done
+2024-07-22 15:38:14,837 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 13
+2024-07-22 15:38:14,837 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: poll_exit
+2024-07-22 15:38:14,837 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:14,837 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-22 15:38:14,837 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:14,837 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-22 15:38:14,838 INFO    SenderThread:24500 [sender.py:transition_state():614] send defer: 14
+2024-07-22 15:38:14,838 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: defer
+2024-07-22 15:38:14,838 INFO    HandlerThread:24500 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-22 15:38:14,838 DEBUG   SenderThread:24500 [sender.py:send():379] send: final
+2024-07-22 15:38:14,838 DEBUG   SenderThread:24500 [sender.py:send():379] send: footer
+2024-07-22 15:38:14,838 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: defer
+2024-07-22 15:38:14,838 INFO    SenderThread:24500 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-22 15:38:14,839 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-22 15:38:14,839 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: poll_exit
+2024-07-22 15:38:14,840 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: server_info
+2024-07-22 15:38:14,840 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: server_info
+2024-07-22 15:38:14,842 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-22 15:38:14,842 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-22 15:38:14,843 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-22 15:38:14,844 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-22 15:38:14,997 DEBUG   SenderThread:24500 [sender.py:send_request():406] send_request: poll_exit
+2024-07-22 15:38:14,997 INFO    MainThread:24500 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-22 15:38:14,998 INFO    MainThread:24500 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-22 15:38:14,999 INFO    MainThread:24500 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-22 15:38:14,999 DEBUG   HandlerThread:24500 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-22 15:38:14,999 INFO    HandlerThread:24500 [handler.py:finish():882] shutting down handler
+2024-07-22 15:38:15,846 INFO    WriterThread:24500 [datastore.py:close():296] close: /Users/sarahbentley/dfa_transformer/wandb/run-20240722_153528-4ed736cy/run-4ed736cy.wandb
+2024-07-22 15:38:16,000 INFO    SenderThread:24500 [sender.py:finish():1608] shutting down sender
+2024-07-22 15:38:16,000 INFO    SenderThread:24500 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-22 15:38:16,000 INFO    SenderThread:24500 [file_pusher.py:join():175] waiting for file pusher

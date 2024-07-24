@@ -1,0 +1,1 @@
+{"epoch": 24, "loss": 7.881056129921404e-10, "macro_accuracy": 1.0, "micro_accuracy": 1.0, "auc": 1.0, "mAP": 1.0, "_timestamp": 1721382038.2991009, "_runtime": 27.252237796783447, "_step": 24, "_wandb": {"runtime": 27}}

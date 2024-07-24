@@ -1,0 +1,31 @@
+Epoch 1/10, Avg Training Loss: 1.2582949846982956
+Epoch 2/10, Avg Training Loss: 0.9008345305919647
+Epoch 3/10, Avg Training Loss: 0.6356820240616798
+Epoch 4/10, Avg Training Loss: 0.5850817412137985
+Epoch 5/10, Avg Training Loss: 0.5276931126912435
+Epoch 6/10, Avg Training Loss: 0.5002079506715139
+Epoch 7/10, Avg Training Loss: 0.5525750493009886
+Epoch 8/10, Avg Training Loss: 0.4320218761761983
+Epoch 9/10, Avg Training Loss: 0.4677397559086482
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch 10/10, Avg Training Loss: 0.41368720183769864
+Traceback (most recent call last):
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sarahbentley/.julia/conda/3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sarahbentley/dfa_transformer/src/bilinear/train.py", line 98, in <module>
+    main(args)
+  File "/Users/sarahbentley/dfa_transformer/src/bilinear/train.py", line 92, in main
+    wandb.log(p)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 449, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 390, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1877, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1636, in _log
+    raise ValueError("wandb.log must be passed a dictionary")
+ValueError: wandb.log must be passed a dictionary

@@ -1,0 +1,286 @@
+2024-07-19 09:58:33,714 INFO    StreamThr :1204 [internal.py:wandb_internal():85] W&B internal server running at pid: 1204, started at: 2024-07-19 09:58:33.713242
+2024-07-19 09:58:33,715 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: status
+2024-07-19 09:58:33,720 INFO    WriterThread:1204 [datastore.py:open_for_write():87] open: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/run-3drlca3h.wandb
+2024-07-19 09:58:33,721 DEBUG   SenderThread:1204 [sender.py:send():379] send: header
+2024-07-19 09:58:33,721 DEBUG   SenderThread:1204 [sender.py:send():379] send: run
+2024-07-19 09:58:34,142 INFO    SenderThread:1204 [dir_watcher.py:__init__():211] watching files in: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files
+2024-07-19 09:58:34,142 INFO    SenderThread:1204 [sender.py:_start_run_threads():1188] run started: 3drlca3h with start time 1721375913.713594
+2024-07-19 09:58:34,153 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: check_version
+2024-07-19 09:58:34,153 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: check_version
+2024-07-19 09:58:34,233 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: run_start
+2024-07-19 09:58:34,241 DEBUG   HandlerThread:1204 [system_info.py:__init__():26] System info init
+2024-07-19 09:58:34,242 DEBUG   HandlerThread:1204 [system_info.py:__init__():41] System info init done
+2024-07-19 09:58:34,242 INFO    HandlerThread:1204 [system_monitor.py:start():194] Starting system monitor
+2024-07-19 09:58:34,242 INFO    SystemMonitor:1204 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-19 09:58:34,243 INFO    HandlerThread:1204 [system_monitor.py:probe():214] Collecting system info
+2024-07-19 09:58:34,243 INFO    SystemMonitor:1204 [interfaces.py:start():188] Started cpu monitoring
+2024-07-19 09:58:34,243 INFO    SystemMonitor:1204 [interfaces.py:start():188] Started disk monitoring
+2024-07-19 09:58:34,244 INFO    SystemMonitor:1204 [interfaces.py:start():188] Started memory monitoring
+2024-07-19 09:58:34,247 DEBUG   HandlerThread:1204 [system_info.py:probe():152] Probing system
+2024-07-19 09:58:34,247 INFO    SystemMonitor:1204 [interfaces.py:start():188] Started network monitoring
+2024-07-19 09:58:34,252 DEBUG   HandlerThread:1204 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-19 09:58:34,253 DEBUG   HandlerThread:1204 [system_info.py:probe():200] Probing system done
+2024-07-19 09:58:34,253 DEBUG   HandlerThread:1204 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-x86_64-i386-64bit', 'python': '3.10.12', 'heartbeatAt': '2024-07-19T07:58:34.247257', 'startedAt': '2024-07-19T07:58:33.706650', 'docker': None, 'cuda': None, 'args': ('--num_epochs', '10'), 'state': 'running', 'program': '-m src.GPT.train', 'codePathLocal': None, 'host': 'tsf-436-wpa-6-216.epfl.ch', 'username': 'sarahbentley', 'executable': '/Users/sarahbentley/dfa_transformer/venv/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2600, 'min': 2600, 'max': 2600}, 'cpu_freq_per_core': [{'current': 2600, 'min': 2600, 'max': 2600}], 'disk': {'/': {'total': 233.46913528442383, 'used': 12.543170928955078}}, 'memory': {'total': 16.0}}
+2024-07-19 09:58:34,253 INFO    HandlerThread:1204 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-19 09:58:34,253 INFO    HandlerThread:1204 [system_monitor.py:probe():227] Publishing system info
+2024-07-19 09:58:34,254 INFO    HandlerThread:1204 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-19 09:58:34,257 DEBUG   SenderThread:1204 [sender.py:send():379] send: files
+2024-07-19 09:58:34,257 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-19 09:58:34,352 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-19 09:58:34,352 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: python_packages
+2024-07-19 09:58:34,354 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-19 09:58:34,354 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: stop_status
+2024-07-19 09:58:34,355 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:34,575 DEBUG   SenderThread:1204 [sender.py:send():379] send: telemetry
+2024-07-19 09:58:34,828 DEBUG   SenderThread:1204 [sender.py:send():379] send: telemetry
+2024-07-19 09:58:34,850 INFO    wandb-upload_0:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/225rdoby-wandb-metadata.json
+2024-07-19 09:58:34,970 DEBUG   SenderThread:1204 [sender.py:send():379] send: telemetry
+2024-07-19 09:58:35,144 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-metadata.json
+2024-07-19 09:58:35,145 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/requirements.txt
+2024-07-19 09:58:35,145 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:35,353 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:36,362 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:36,511 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:36,512 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:36,513 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:36,514 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:37,152 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:37,152 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:37,371 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:37,761 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:37,762 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:37,762 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:37,763 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:38,154 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:38,374 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:38,763 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: status_report
+2024-07-19 09:58:38,964 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:38,965 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:38,965 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:38,965 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:39,155 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:39,155 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:39,381 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:40,202 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:40,202 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:40,203 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:40,203 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:40,375 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:41,160 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:41,160 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:41,379 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:41,407 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:41,408 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:41,408 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:41,409 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:42,165 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:42,381 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:42,628 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:42,629 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:42,629 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:42,629 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:43,169 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:43,169 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:43,389 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:43,813 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: status_report
+2024-07-19 09:58:43,871 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:43,872 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:43,872 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:43,873 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:44,171 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:44,388 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:45,128 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:45,128 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:45,129 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:45,129 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:45,176 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:45,177 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:45,397 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:46,385 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:46,386 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:46,387 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:46,387 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:46,394 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:47,182 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:47,182 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:47,396 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:47,662 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:47,663 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:47,663 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:47,663 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:47,666 DEBUG   SenderThread:1204 [sender.py:send():379] send: telemetry
+2024-07-19 09:58:47,667 DEBUG   SenderThread:1204 [sender.py:send():379] send: files
+2024-07-19 09:58:47,667 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file GPT_outputs/run_20240719_0958_GPT_ParityDFA_lr0.001_s10_model.pth with policy live
+2024-07-19 09:58:48,004 DEBUG   SenderThread:1204 [sender.py:send():379] send: files
+2024-07-19 09:58:48,005 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file media/plotly/precision_recall_fscore_10_3abf1e7296c92697db1b.plotly.json with policy now
+2024-07-19 09:58:48,009 DEBUG   SenderThread:1204 [sender.py:send():379] send: files
+2024-07-19 09:58:48,009 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file media/plotly/precision_recall_curve_10_3f9cbb343e466ad9d83a.plotly.json with policy now
+2024-07-19 09:58:48,009 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:48,010 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:48,010 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:48,010 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:48,187 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:48,188 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/GPT_outputs/run_20240719_0958_GPT_ParityDFA_lr0.001_s10_model.pth
+2024-07-19 09:58:48,188 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly/precision_recall_fscore_10_3abf1e7296c92697db1b.plotly.json
+2024-07-19 09:58:48,188 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly/precision_recall_curve_10_3f9cbb343e466ad9d83a.plotly.json
+2024-07-19 09:58:48,189 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media
+2024-07-19 09:58:48,189 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly
+2024-07-19 09:58:48,189 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/GPT_outputs
+2024-07-19 09:58:48,398 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:48,441 INFO    wandb-upload_0:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/jd9gia3a-GPT_outputs/run_20240719_0958_GPT_ParityDFA_lr0.001_s10_model.pth
+2024-07-19 09:58:48,441 INFO    wandb-upload_2:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/hhfasl38-media/plotly/precision_recall_curve_10_3f9cbb343e466ad9d83a.plotly.json
+2024-07-19 09:58:48,455 INFO    wandb-upload_1:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/grlskumk-media/plotly/precision_recall_fscore_10_3abf1e7296c92697db1b.plotly.json
+2024-07-19 09:58:48,910 INFO    wandb-upload_0:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/pgjy0n0q-media/plotly/precision_recall_curve_10_3f9cbb343e466ad9d83a.plotly.json
+2024-07-19 09:58:48,930 INFO    wandb-upload_2:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/qcnutyxx-media/plotly/precision_recall_fscore_10_3abf1e7296c92697db1b.plotly.json
+2024-07-19 09:58:49,188 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:49,189 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-19 09:58:49,189 DEBUG   SenderThread:1204 [sender.py:send():379] send: files
+2024-07-19 09:58:49,190 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file media/plotly/Performance metrics by length_11_108d298015111a6b451a.plotly.json with policy now
+2024-07-19 09:58:49,190 DEBUG   SenderThread:1204 [sender.py:send():379] send: history
+2024-07-19 09:58:49,190 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: summary_record
+2024-07-19 09:58:49,191 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: status_report
+2024-07-19 09:58:49,192 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:49,192 DEBUG   SenderThread:1204 [sender.py:send():379] send: exit
+2024-07-19 09:58:49,192 INFO    SenderThread:1204 [sender.py:send_exit():586] handling exit code: 0
+2024-07-19 09:58:49,192 INFO    SenderThread:1204 [sender.py:send_exit():588] handling runtime: 14
+2024-07-19 09:58:49,192 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:49,193 INFO    SenderThread:1204 [sender.py:send_exit():594] send defer
+2024-07-19 09:58:49,193 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,193 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-19 09:58:49,193 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,193 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-19 09:58:49,193 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 1
+2024-07-19 09:58:49,193 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,193 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-19 09:58:49,194 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,194 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-19 09:58:49,194 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 2
+2024-07-19 09:58:49,195 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,195 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-19 09:58:49,195 INFO    HandlerThread:1204 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-19 09:58:49,195 DEBUG   SystemMonitor:1204 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-19 09:58:49,196 INFO    HandlerThread:1204 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-19 09:58:49,196 DEBUG   SystemMonitor:1204 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-19 09:58:49,196 DEBUG   SystemMonitor:1204 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-19 09:58:49,196 INFO    HandlerThread:1204 [interfaces.py:finish():200] Joined disk monitor
+2024-07-19 09:58:49,197 INFO    HandlerThread:1204 [interfaces.py:finish():200] Joined memory monitor
+2024-07-19 09:58:49,197 INFO    HandlerThread:1204 [interfaces.py:finish():200] Joined network monitor
+2024-07-19 09:58:49,197 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,198 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-19 09:58:49,198 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 3
+2024-07-19 09:58:49,198 DEBUG   SenderThread:1204 [sender.py:send():379] send: stats
+2024-07-19 09:58:49,198 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,198 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-19 09:58:49,198 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,198 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-19 09:58:49,198 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 4
+2024-07-19 09:58:49,198 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,199 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-19 09:58:49,199 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,199 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-19 09:58:49,199 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 5
+2024-07-19 09:58:49,199 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,199 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-19 09:58:49,199 DEBUG   SenderThread:1204 [sender.py:send():379] send: summary
+2024-07-19 09:58:49,200 INFO    SenderThread:1204 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-19 09:58:49,200 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,200 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-19 09:58:49,200 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 6
+2024-07-19 09:58:49,200 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,200 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-19 09:58:49,200 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,200 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-19 09:58:49,203 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: status_report
+2024-07-19 09:58:49,401 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 7
+2024-07-19 09:58:49,401 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:49,401 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-19 09:58:49,401 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:49,401 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-19 09:58:49,605 INFO    wandb-upload_1:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/5nvhxasa-media/plotly/Performance metrics by length_11_108d298015111a6b451a.plotly.json
+2024-07-19 09:58:50,190 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/config.yaml
+2024-07-19 09:58:50,190 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:50,191 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly/Performance metrics by length_11_108d298015111a6b451a.plotly.json
+2024-07-19 09:58:50,191 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly
+2024-07-19 09:58:50,192 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-19 09:58:50,675 INFO    wandb-upload_2:1204 [upload_job.py:push():130] Uploaded file /var/folders/k0/8f489r4d5tj4r0jv__1wd4_w0000gn/T/tmpraqbk54jwandb/jiiyvpjp-media/plotly/Performance metrics by length_11_108d298015111a6b451a.plotly.json
+2024-07-19 09:58:51,194 INFO    Thread-12 :1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:52,507 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 8
+2024-07-19 09:58:52,507 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: poll_exit
+2024-07-19 09:58:52,507 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:52,507 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-19 09:58:52,508 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:52,508 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-19 09:58:52,508 INFO    SenderThread:1204 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-19 09:58:52,509 INFO    SenderThread:1204 [job_builder.py:_get_source_type():580] no source found
+2024-07-19 09:58:52,509 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 9
+2024-07-19 09:58:52,509 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:52,509 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-19 09:58:52,509 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:52,509 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-19 09:58:52,510 INFO    SenderThread:1204 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-19 09:58:53,203 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-19 09:58:53,203 INFO    SenderThread:1204 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:53,204 INFO    SenderThread:1204 [dir_watcher.py:finish():388] scan: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files
+2024-07-19 09:58:53,205 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/requirements.txt requirements.txt
+2024-07-19 09:58:53,205 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log output.log
+2024-07-19 09:58:53,207 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/config.yaml config.yaml
+2024-07-19 09:58:53,209 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json wandb-summary.json
+2024-07-19 09:58:53,211 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-metadata.json wandb-metadata.json
+2024-07-19 09:58:53,214 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/GPT_outputs/run_20240719_0958_GPT_ParityDFA_lr0.001_s10_model.pth GPT_outputs/run_20240719_0958_GPT_ParityDFA_lr0.001_s10_model.pth
+2024-07-19 09:58:53,216 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly/precision_recall_curve_10_3f9cbb343e466ad9d83a.plotly.json media/plotly/precision_recall_curve_10_3f9cbb343e466ad9d83a.plotly.json
+2024-07-19 09:58:53,216 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly/precision_recall_fscore_10_3abf1e7296c92697db1b.plotly.json media/plotly/precision_recall_fscore_10_3abf1e7296c92697db1b.plotly.json
+2024-07-19 09:58:53,216 INFO    SenderThread:1204 [dir_watcher.py:finish():402] scan save: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/media/plotly/Performance metrics by length_11_108d298015111a6b451a.plotly.json media/plotly/Performance metrics by length_11_108d298015111a6b451a.plotly.json
+2024-07-19 09:58:53,216 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 10
+2024-07-19 09:58:53,216 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: poll_exit
+2024-07-19 09:58:53,216 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:53,217 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-19 09:58:53,217 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:53,217 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-19 09:58:53,217 INFO    SenderThread:1204 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-19 09:58:53,609 INFO    wandb-upload_2:1204 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/output.log
+2024-07-19 09:58:53,615 INFO    wandb-upload_1:1204 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/requirements.txt
+2024-07-19 09:58:53,633 INFO    wandb-upload_0:1204 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/config.yaml
+2024-07-19 09:58:53,662 INFO    wandb-upload_3:1204 [upload_job.py:push():130] Uploaded file /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/files/wandb-summary.json
+2024-07-19 09:58:53,866 INFO    Thread-11 (_thread_body):1204 [sender.py:transition_state():614] send defer: 11
+2024-07-19 09:58:53,866 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:53,867 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-19 09:58:53,867 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:53,867 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-19 09:58:53,867 INFO    SenderThread:1204 [file_pusher.py:join():175] waiting for file pusher
+2024-07-19 09:58:53,870 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 12
+2024-07-19 09:58:53,870 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:53,870 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-19 09:58:53,870 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:53,870 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-19 09:58:53,871 INFO    SenderThread:1204 [file_stream.py:finish():601] file stream finish called
+2024-07-19 09:58:54,023 INFO    SenderThread:1204 [file_stream.py:finish():605] file stream finish is done
+2024-07-19 09:58:54,024 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 13
+2024-07-19 09:58:54,024 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:54,024 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-19 09:58:54,024 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:54,024 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-19 09:58:54,025 INFO    SenderThread:1204 [sender.py:transition_state():614] send defer: 14
+2024-07-19 09:58:54,025 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: defer
+2024-07-19 09:58:54,025 INFO    HandlerThread:1204 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-19 09:58:54,025 DEBUG   SenderThread:1204 [sender.py:send():379] send: final
+2024-07-19 09:58:54,025 DEBUG   SenderThread:1204 [sender.py:send():379] send: footer
+2024-07-19 09:58:54,026 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: defer
+2024-07-19 09:58:54,026 INFO    SenderThread:1204 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-19 09:58:54,026 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-19 09:58:54,027 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: poll_exit
+2024-07-19 09:58:54,027 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: server_info
+2024-07-19 09:58:54,027 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: server_info
+2024-07-19 09:58:54,029 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-19 09:58:54,030 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-19 09:58:54,030 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-19 09:58:54,031 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-19 09:58:54,181 DEBUG   SenderThread:1204 [sender.py:send_request():406] send_request: poll_exit
+2024-07-19 09:58:54,181 INFO    MainThread:1204 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-19 09:58:54,182 INFO    MainThread:1204 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-19 09:58:54,182 INFO    MainThread:1204 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-19 09:58:54,183 DEBUG   HandlerThread:1204 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-19 09:58:54,183 INFO    HandlerThread:1204 [handler.py:finish():882] shutting down handler
+2024-07-19 09:58:55,035 INFO    WriterThread:1204 [datastore.py:close():296] close: /Users/sarahbentley/dfa_transformer/wandb/run-20240719_095833-3drlca3h/run-3drlca3h.wandb
+2024-07-19 09:58:55,186 INFO    SenderThread:1204 [sender.py:finish():1608] shutting down sender
+2024-07-19 09:58:55,186 INFO    SenderThread:1204 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-19 09:58:55,186 INFO    SenderThread:1204 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,62 @@
+number of parameters: 0.04M
+num decayed parameter tensors: 10, with 40,760 parameters
+num non-decayed parameter tensors: 18, with 1,120 parameters
+using fused AdamW: False
+Epoch 1/50, Avg Training Loss: 1.0639000672101975
+Skipping AUC calculation for class <pad> as it has only one class present in true labels.
+Epoch 2/50, Avg Training Loss: 0.5951269218325614
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/sarahbentley/dfa_transformer/venv/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1030: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Epoch 3/50, Avg Training Loss: 0.4436090990900993
+Epoch 4/50, Avg Training Loss: 0.33513048738241197
+Epoch 5/50, Avg Training Loss: 0.3123663315176964
+Epoch 6/50, Avg Training Loss: 0.3002623882889748
+Epoch 7/50, Avg Training Loss: 0.30588199853897097
+Epoch 8/50, Avg Training Loss: 0.2999891251325607
+Epoch 9/50, Avg Training Loss: 0.2982260715961456
+Epoch 10/50, Avg Training Loss: 0.31777522802352903
+Epoch 11/50, Avg Training Loss: 0.29831693559885025
+Epoch 12/50, Avg Training Loss: 0.297700482904911
+Epoch 13/50, Avg Training Loss: 0.3072261932492256
+Epoch 14/50, Avg Training Loss: 0.2978294187784195
+Epoch 15/50, Avg Training Loss: 0.29776883333921433
+Epoch 16/50, Avg Training Loss: 0.31284889072179795
+Epoch 17/50, Avg Training Loss: 0.2976292344927788
+Epoch 18/50, Avg Training Loss: 0.29752265095710756
+Epoch 19/50, Avg Training Loss: 0.3039633613824844
+Epoch 20/50, Avg Training Loss: 0.29748677551746366
+Epoch 21/50, Avg Training Loss: 0.2977964439988136
+Epoch 22/50, Avg Training Loss: 0.3133162984251976
+Epoch 23/50, Avg Training Loss: 0.2975276356935501
+Epoch 24/50, Avg Training Loss: 0.297348840534687
+Epoch 25/50, Avg Training Loss: 0.29732335776090624
+Epoch 26/50, Avg Training Loss: 0.3030478784441948
+Epoch 27/50, Avg Training Loss: 0.2977203768491745
+Epoch 28/50, Avg Training Loss: 0.2975520047545433
+Epoch 29/50, Avg Training Loss: 0.29833290427923204
+Epoch 30/50, Avg Training Loss: 0.29978419840335846
+Epoch 31/50, Avg Training Loss: 0.29723192006349564
+Epoch 32/50, Avg Training Loss: 0.2973135468363762
+Epoch 33/50, Avg Training Loss: 0.3230295929312706
+Epoch 34/50, Avg Training Loss: 0.2975854635238647
+Epoch 35/50, Avg Training Loss: 0.299713072180748
+Epoch 36/50, Avg Training Loss: 0.297299989759922
+Epoch 37/50, Avg Training Loss: 0.29755481392145156
+Epoch 38/50, Avg Training Loss: 0.30531034380197525
+Epoch 39/50, Avg Training Loss: 0.3374066513776779
+Epoch 40/50, Avg Training Loss: 0.2974003380537033
+Epoch 41/50, Avg Training Loss: 0.29758752018213275
+Epoch 42/50, Avg Training Loss: 0.30219642609357833
+Epoch 43/50, Avg Training Loss: 0.2980883234739304
+Epoch 44/50, Avg Training Loss: 0.2977756267786026
+Epoch 45/50, Avg Training Loss: 0.2976946845650673
+Epoch 46/50, Avg Training Loss: 0.30724297821521757
+Epoch 47/50, Avg Training Loss: 0.2974804538488388
+Epoch 48/50, Avg Training Loss: 0.29729554176330564
+Epoch 49/50, Avg Training Loss: 0.29733955919742583
+Epoch 50/50, Avg Training Loss: 0.3015604093670845
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
