@@ -1,5 +1,5 @@
 # Simulating DFAs
-This repository contains code for my experiments on simulating deterministic finite automata (DFAs) using a bilinear model and various transformer architectures. The bilinear model and training script can be found in the `/src/bilinear` directory. The DFA class and corresponding OneHotEncoders can be found in the `/src/DFA` directory. The transformer models, including GT, WGT, and RWGT, as well as their training scripts can be found in the `/src/GT` directory.
+This repository contains code for my experiments on simulating deterministic finite automata (DFAs) using a bilinear model and various transformer architectures. Full documentation of these experiments and their setup can be found [here](https://humdrum-peridot-bf0.notion.site/Learning-Deterministic-Finite-Automata-62a5b74963ba4277b24d0fecfd1e45c6). The bilinear model and training script can be found in the `/src/bilinear` directory. The DFA class and corresponding OneHotEncoders can be found in the `/src/DFA` directory. The transformer models, including GT, WGT, and RWGT, as well as their training scripts can be found in the `/src/GT` directory.
 
 ## Training
 I recommend referring to the training scripts for all training arguments. However, below are some example commands for training each type of model to simulate the ParityDFA.
