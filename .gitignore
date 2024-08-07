@@ -10,3 +10,8 @@ __pycache__/
 input.txt
 env/
 venv/
+.GPT_outputs
+.GT_outputs
+.RWGT_outputs
+.WGT_outputs
+.wandb

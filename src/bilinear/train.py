@@ -41,12 +41,13 @@ def get_args():
     parser.add_argument("--lr", type=float, default=0.2, help="Learning rate")
     parser.add_argument("--seq_len", type=int, default=10, help="Sequence length to train on")
     parser.add_argument("--l1_penalty", type=float, default=0.01, help="L1 penalty")
+    parser.add_argument("--name", type=str, default='', help="Optional model name.")
     
     return parser.parse_args()
 
 def main(args):
     # Initialize Weights and Biases
-    wandb.init(project= 'bilinear_' + args.DFA, config=args)
+    wandb.init(project= 'bilinear_' + args.name + '_' + args.DFA, config=args)
     config = wandb.config
         
     # Create outputs directory
@@ -87,7 +88,7 @@ def main(args):
     visualizations = visualize_final_metrics(tgt_pred, pred)
     wandb.log(visualizations)
 
-    by_length = metrics_by_length(model, DFA, [i for i in range(4, args.seq_len*2)])
+    by_length = metrics_by_length(model, DFA, [i for i in range(4, args.seq_len*10)])
     wandb.log(by_length)
 
 

@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from .metrics import *
 import plotly.graph_objs as go
-from ..GPT.dataloader import DFADataloader
 
 def plot_precision_recall_fscore(prf):
     # Extract class names and metrics
