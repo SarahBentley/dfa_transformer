@@ -88,10 +88,10 @@ if __name__ == "__main__":
     # Set device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     max_seq_len = 10
-    state_freq = 1
+    input_freq = 1
 
     # Initialize dataloader
-    dataloader = DFADataloader(ParityDFA, max_seq_len=max_seq_len, pad_idx=0, state_freq=state_freq)
+    dataloader = DFADataloader(ParityDFA, max_seq_len=max_seq_len, pad_idx=0, input_freq=input_freq)
 
     # Organize args
     trainconf = TrainConfig(
@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
     wgtconf = WGTConfig(
         vocab_size = dataloader.vocab_size,
-        window_size=state_freq+1,
+        window_size=input_freq+1,
         n_head=1,
         n_layer=1,
         n_embd=10
@@ -120,7 +120,7 @@ if __name__ == "__main__":
 
     rwgtconf = RWGTConfig(
         vocab_size = dataloader.vocab_size,
-        window_size=state_freq+1,
+        window_size=input_freq+1,
         n_head=3,
         n_layer=3,
         n_embd=60,

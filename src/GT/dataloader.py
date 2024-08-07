@@ -2,7 +2,7 @@ import numpy as np
 import torch
 
   
-def interweave_sequences(states, sequence, state_freq):
+def interweave_sequences(states, sequence, input_freq):
     output = [states[0]] # add the start state
     
     states = states[1:] # remove start state
@@ -11,7 +11,7 @@ def interweave_sequences(states, sequence, state_freq):
     # states[0] states[1] sequence[0] states[2] sequence[1] states[3] sequence[2].... sequence[-1] states[-2] <End> states[-1]
 
     for i in range(len(sequence)):
-        if i % state_freq == 0:
+        if i % input_freq == 0:
             output.append(states[i])
         output.append(sequence[i])
 
@@ -21,7 +21,7 @@ def interweave_sequences(states, sequence, state_freq):
 
 
 class DFADataloader:
-    def __init__(self, DFA, max_seq_len, pad_idx=0, state_freq=1):
+    def __init__(self, DFA, max_seq_len, pad_idx=0, input_freq=1):
         self.DFA = DFA
         self.pad_idx = pad_idx
 
@@ -30,7 +30,7 @@ class DFADataloader:
 
         self.vocab_size = len(self.vocab)
         self.max_seq_len = max_seq_len
-        self.state_freq = state_freq  # maximum number of symbols you will see until you are given a state
+        self.input_freq = input_freq  # maximum number of symbols you will see until you are given a state
 
     def encode(self, sequence, max_len):
         return [self.vocab.index(i) for i in sequence] + [self.pad_idx for _ in range(max_len - len(sequence)-1)]
@@ -50,7 +50,7 @@ class DFADataloader:
             states = self.DFA.process_sequence(symbols).split(' ')
 
             # create src
-            seq = interweave_sequences(states, symbols, self.state_freq)
+            seq = interweave_sequences(states, symbols, self.input_freq)
             src.append(seq)
 
             # create tgt with padding in position of input symbols
@@ -73,7 +73,7 @@ class DFADataloader:
 if __name__ == "__main__":
     # sanity checks
     from ..DFA.ParityDFA import ParityDFA
-    dataloader = DFADataloader(ParityDFA, max_seq_len=6, pad_idx=0, state_freq=1)
+    dataloader = DFADataloader(ParityDFA, max_seq_len=6, pad_idx=0, input_freq=1)
     encoded_src, encoded_tgt = dataloader.generate_batch(batch_size=2, same_lengths=True)
     print("----------RESULTS----------------------")
     print("ENCODED")

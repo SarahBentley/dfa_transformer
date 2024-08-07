@@ -46,7 +46,7 @@ def get_args():
     parser.add_argument("--n_head", type=int, default=2, help="Number of attention heads")
     parser.add_argument("--n_embd", type=int, default=40, help="Embedding dimension")
     parser.add_argument("--MLP_width", type=int, default=None, help="Number of parallel activations in MLP layer")
-    parser.add_argument("--state_freq", type=int, default=1, help="How often states should be interspersed with input symbols. Ex.  1 means every other symbol, etc.")
+    parser.add_argument("--input_freq", type=int, default=1, help="How often states should be interspersed with input symbols. Ex.  1 means every other symbol, etc.")
 
 
     parser.add_argument("--gen", type=int, default=20, help="Max sequence length for which we want to test model generalization")
@@ -68,7 +68,7 @@ def main(args):
     
     # Initialize dataloader
     DFA = choose_DFA(args)
-    dataloader = DFADataloader(DFA, max_seq_len=args.max_seq_len, pad_idx=0, state_freq=args.state_freq)
+    dataloader = DFADataloader(DFA, max_seq_len=args.max_seq_len, pad_idx=0, input_freq=args.input_freq)
 
     # Organize args
     trainconf = TrainConfig(
@@ -89,7 +89,7 @@ def main(args):
         bias = args.bias,
         pad_idx = dataloader.pad_idx,
         MLP_width = args.MLP_width,
-        window_size= args.state_freq + 1 # add 1 to see state
+        window_size= args.input_freq + 1 # add 1 to see state
     )
 
     RWGTconf = RWGTConfig(
@@ -101,7 +101,7 @@ def main(args):
         bias = args.bias,
         pad_idx = dataloader.pad_idx,
         MLP_width = args.MLP_width,
-        window_size= args.state_freq + 1 # add 1 to see state
+        window_size= args.input_freq + 1 # add 1 to see state
     )
     
     # Initialize Weights and Biases

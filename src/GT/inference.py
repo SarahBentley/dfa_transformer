@@ -31,7 +31,7 @@ def highlight_mismatches(y_true_seq, y_pred_seq):
 
 def infer(model, dataloader, batch_size, same_lengths=False, temperature=1.0, top_k=None):
     """
-    Perform inference using the model, predicted only states and not input symbols, using the state_freq attribute of the dataloader.
+    Perform inference using the model, predicted only states and not input symbols, using the input_freq attribute of the dataloader.
     For example: given <START> predict <EVEN>, then given 1, predict <ODD>. Finally, given <END> predict <ACCEPT> or <REJECT>.
     """
     src_encoded, tgt_encoded = dataloader.generate_batch(batch_size, same_lengths) # generates batch of shape (batch_size, max_seq_len)
@@ -100,13 +100,13 @@ def metrics_by_length(model, DFA, lengths, batch_size, pad_idx=0):
     maps = []
     seqs = []
     if isinstance(model, WGT) or isinstance(model, RWGT):
-        state_freq = model.config.window_size - 1
+        input_freq = model.config.window_size - 1
     else:
-        state_freq = 1
+        input_freq = 1
 
     for length in tqdm(lengths, desc="Metrics by length"):
 
-        dataloader = DFADataloader(DFA, length, pad_idx, state_freq=state_freq)
+        dataloader = DFADataloader(DFA, length, pad_idx, input_freq=input_freq)
         # Perform inference
         y_true, y_pred = infer(model, dataloader, batch_size, same_lengths=True)
         seqs.append((y_true, y_pred))
